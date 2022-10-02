@@ -1,0 +1,42 @@
+section {
+    width: 624px;
+    margin: 0 auto;
+}
+.head, .col {
+    width: 199px;
+    margin: 4px 2.5px;
+    border: 2px solid #385d8a;
+    text-align: center;
+    font-size: 30px;
+}
+.head {
+    height: 52px;
+    color: white;
+}
+div.card:first-child .head {
+    background: #984807;
+}
+div.card:nth-child(2) .head {
+    background: #77933c;
+}
+div.card:nth-child(3) .head {
+    background: #376092;
+}
+.col {
+    height: 259px;
+}
+div.card:first-child .col {
+    background: #fac090;
+}
+div.card:nth-child(2) .col {
+    background: #c3d69b;
+}
+div.card:nth-child(3) .col {
+    background: #95b3d7;
+}
+.card {
+    float: left;
+}
+.clearfix {
+    clear: both;
+}
